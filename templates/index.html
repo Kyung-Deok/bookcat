@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" type="text/css" href="/static/css/index.css">-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            $(".image").click(function(){
+                window.open('book/');
+            })
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <a href="{% url 'auth' %}">Login</a>
+        <a href="{% url 'register' %}">Signup</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'map' %}">서울시 도서관 맵</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="firstline">
+            <div class="box1">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box2">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box3">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box4">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box5">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+        </div>
+
+        <div class="secondline">
+            <div class="box1">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box2">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box3">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box4">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+            <div class="box5">
+                <img class="image" src="http://image.kyobobook.co.kr/images/book/large/820/l9788954651820.jpg">
+                <span>#고양이 #우정</span>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

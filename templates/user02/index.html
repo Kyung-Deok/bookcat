@@ -1,0 +1,19 @@
+{% extends "include/base.html" %}
+{% block main_area %}
+    index.html 입니다.
+<br>
+ 
+{% if 's_id' in request.session %}
+
+    {{ s_name }} 님 어서오세요.
+    <br><br>
+    <a href="/auth/logout">[로그아웃]</a>
+{% else %}
+    <a href="/auth/register">[회원가입]</a><br>
+    <a href="/auth/login">[로그인]</a>
+{% endif %}
+ 
+{% if message %}
+<script>alert('{{ message }}');</script>
+{% endif %}
+{% endblock %}

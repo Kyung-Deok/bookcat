@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script>
+        window.onload = function(){
+                new Chart(document.getElementById("volume-bar-chart"), {
+                type: 'bar',
+                data: {
+                  labels: {{ volumelist|safe }},
+                  datasets: [
+                    {
+                      label: "",
+                      backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+                      data: {{ volumecount|safe }}
+                    }
+                  ]
+                },
+                options: {
+                  legend: { display: false },
+                  title: {
+                    display: true,
+                    text: 'DE/DS 15, 16회차 학우들의 1년간 독서량'
+                  }
+                }
+            });
+                new Chart(document.getElementById("visit-bar-chart"), {
+                type: 'bar',
+                data: {
+                  labels: {{ visitlist|safe }},
+                  datasets: [
+                    {
+                      label: "Population (millions)",
+                      backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+                      data: {{ visitcount|safe }}
+                    }
+                  ]
+                },
+                options: {
+                  legend: { display: false },
+                  title: {
+                    display: true,
+                    text: 'DE/DS 15, 16회차 학우들의 도서관, 서점 방문 횟수'
+                  }
+                }
+            });
+                new Chart(document.getElementById("genre-pie-chart"), {
+                type: 'pie',
+                data: {
+                  labels: {{ genrelist|safe}},
+                  datasets: [{
+                    label: "Population (millions)",
+                    backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+                    data: {{ genrecount|safe }}
+                  }]
+                },
+                options: {
+                  title: {
+                    display: true,
+                    text: 'DE/DS 15, 16회차 학우들이 좋아하는 장르'
+                  }
+                }
+            });
+                new Chart(document.getElementById("cost-pie-chart"), {
+                type: 'pie',
+                data: {
+                  labels: {{ costlist|safe}},
+                  datasets: [{
+                    label: "Population (millions)",
+                    backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+                    data: {{ costcount|safe }}
+                  }]
+                },
+                options: {
+                  title: {
+                    display: true,
+                    text: 'DE/DS 15, 16회차 학우들이 책 구매에 사용하는 비용'
+                  }
+                }
+            });
+        }
+
+    </script>
+
+</head>
+<body>
+        <h1>Dashboard</h1>
+        <h2>1년간 독서량 차트</h2>
+        <canvas id="volume-bar-chart" width="300" height="230"></canvas>
+        <h2>1년간 도서관, 서점 방문 횟수 차트</h2>
+        <canvas id="visit-bar-chart" width="300" height="230"></canvas>
+        <h2>장르 차트</h2>
+        <canvas id="genre-pie-chart" width="250" height="250"></canvas>
+        <h2>책 구매 비용 차트</h2>
+        <canvas id="cost-pie-chart" width="250" height="250"></canvas>
+
+</body>
+</html>

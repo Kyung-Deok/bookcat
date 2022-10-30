@@ -1,0 +1,2996 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0624.2136                               -->
+<workbook original-version='18.1' source-build='2022.2.0 (20222.22.0624.2136)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1(DD2)' inline='true' name='federated.1x25c5016qpbge14q8ig01gsptu6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD2' name='excel-direct.1iefitb130hakw159p1us049qr6w'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1iefitb130hakw159p1us049qr6w' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B14:no:A1:B14:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분' ordinal='0' />
+            <column datatype='real' name='년 평균(권)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1iefitb130hakw159p1us049qr6w' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B14:no:A1:B14:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분' ordinal='0' />
+            <column datatype='real' name='년 평균(권)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B14:no:A1:B14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>구분</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CB5984EB58CB4EEBBD24BCB17F1E0288]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>년 평균(권)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[년 평균(권)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>년 평균(권)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CB5984EB58CB4EEBBD24BCB17F1E0288]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_CB5984EB58CB4EEBBD24BCB17F1E0288]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_CB5984EB58CB4EEBBD24BCB17F1E0288'>
+            <properties context=''>
+              <relation connection='excel-direct.1iefitb130hakw159p1us049qr6w' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B14:no:A1:B14:0' header='yes' outcome='6'>
+                  <column datatype='string' name='구분' ordinal='0' />
+                  <column datatype='real' name='년 평균(권)' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='데이터(스마트폰1일평균)' inline='true' name='federated.1tko4gy1xbeard15b7lm00vv6oj5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='스마트폰1일평균' name='excel-direct.0y2sjol1cbrjq4106pujm1iw9qaa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/DB/스마트폰1일평균.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0y2sjol1cbrjq4106pujm1iw9qaa' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:O81:no:A1:O81:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='분류별' ordinal='1' />
+            <column datatype='string' name='제외별' ordinal='2' />
+            <column datatype='string' name='항목' ordinal='3' />
+            <column datatype='string' name='단위' ordinal='4' />
+            <column datatype='real' name='2012 년' ordinal='5' />
+            <column datatype='real' name='2013 년' ordinal='6' />
+            <column datatype='real' name='2014 년' ordinal='7' />
+            <column datatype='real' name='2015 년' ordinal='8' />
+            <column datatype='real' name='2016 년' ordinal='9' />
+            <column datatype='real' name='2017 년' ordinal='10' />
+            <column datatype='real' name='2018 년' ordinal='11' />
+            <column datatype='real' name='2019 년' ordinal='12' />
+            <column datatype='real' name='2020 년' ordinal='13' />
+            <column datatype='real' name='2021 년' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0y2sjol1cbrjq4106pujm1iw9qaa' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:O81:no:A1:O81:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='분류별' ordinal='1' />
+            <column datatype='string' name='제외별' ordinal='2' />
+            <column datatype='string' name='항목' ordinal='3' />
+            <column datatype='string' name='단위' ordinal='4' />
+            <column datatype='real' name='2012 년' ordinal='5' />
+            <column datatype='real' name='2013 년' ordinal='6' />
+            <column datatype='real' name='2014 년' ordinal='7' />
+            <column datatype='real' name='2015 년' ordinal='8' />
+            <column datatype='real' name='2016 년' ordinal='9' />
+            <column datatype='real' name='2017 년' ordinal='10' />
+            <column datatype='real' name='2018 년' ordinal='11' />
+            <column datatype='real' name='2019 년' ordinal='12' />
+            <column datatype='real' name='2020 년' ordinal='13' />
+            <column datatype='real' name='2021 년' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O81:no:A1:O81:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분별]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>구분별</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>분류별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[분류별]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>분류별</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>제외별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[제외별]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>제외별</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[항목]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>항목</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>단위</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[단위]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>단위</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2012 년</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2013 년</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2014 년</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2015 년</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2016 년</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2017 년</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2018 년</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2019 년</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2020 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2020 년</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2021 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2021 년</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_5E9FA6C360E8432C92246DE60324D0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='데이터' datatype='table' name='[__tableau_internal_object_id__].[데이터_5E9FA6C360E8432C92246DE60324D0E6]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='데이터' id='데이터_5E9FA6C360E8432C92246DE60324D0E6'>
+            <properties context=''>
+              <relation connection='excel-direct.0y2sjol1cbrjq4106pujm1iw9qaa' name='데이터' table='[데이터$]' type='table'>
+                <columns gridOrigin='A1:O81:no:A1:O81:0' header='yes' outcome='6'>
+                  <column datatype='string' name='구분별' ordinal='0' />
+                  <column datatype='string' name='분류별' ordinal='1' />
+                  <column datatype='string' name='제외별' ordinal='2' />
+                  <column datatype='string' name='항목' ordinal='3' />
+                  <column datatype='string' name='단위' ordinal='4' />
+                  <column datatype='real' name='2012 년' ordinal='5' />
+                  <column datatype='real' name='2013 년' ordinal='6' />
+                  <column datatype='real' name='2014 년' ordinal='7' />
+                  <column datatype='real' name='2015 년' ordinal='8' />
+                  <column datatype='real' name='2016 년' ordinal='9' />
+                  <column datatype='real' name='2017 년' ordinal='10' />
+                  <column datatype='real' name='2018 년' ordinal='11' />
+                  <column datatype='real' name='2019 년' ordinal='12' />
+                  <column datatype='real' name='2020 년' ordinal='13' />
+                  <column datatype='real' name='2021 년' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='데이터(DD5)' inline='true' name='federated.1lot7db01zc35o1fh12ly12ss4dn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD5' name='excel-direct.1g2n5fw0ky9ziq138u0dx1v5fg4n'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD5.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1g2n5fw0ky9ziq138u0dx1v5fg4n' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:L3:no:A1:L3:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='항목' ordinal='1' />
+            <column datatype='real' name='2012 년' ordinal='2' />
+            <column datatype='real' name='2013 년' ordinal='3' />
+            <column datatype='real' name='2014 년' ordinal='4' />
+            <column datatype='real' name='2015 년' ordinal='5' />
+            <column datatype='real' name='2016 년' ordinal='6' />
+            <column datatype='real' name='2017 년' ordinal='7' />
+            <column datatype='real' name='2018 년' ordinal='8' />
+            <column datatype='real' name='2019 년' ordinal='9' />
+            <column datatype='real' name='2020 년' ordinal='10' />
+            <column datatype='real' name='2021 년' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1g2n5fw0ky9ziq138u0dx1v5fg4n' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:L3:no:A1:L3:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='항목' ordinal='1' />
+            <column datatype='real' name='2012 년' ordinal='2' />
+            <column datatype='real' name='2013 년' ordinal='3' />
+            <column datatype='real' name='2014 년' ordinal='4' />
+            <column datatype='real' name='2015 년' ordinal='5' />
+            <column datatype='real' name='2016 년' ordinal='6' />
+            <column datatype='real' name='2017 년' ordinal='7' />
+            <column datatype='real' name='2018 년' ordinal='8' />
+            <column datatype='real' name='2019 년' ordinal='9' />
+            <column datatype='real' name='2020 년' ordinal='10' />
+            <column datatype='real' name='2021 년' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L3:no:A1:L3:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분별]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>구분별</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[항목]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>항목</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2012 년</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2013 년</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2014 년</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2015 년</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2016 년</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2017 년</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2018 년</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2019 년</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2020 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2020 년</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2021 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2021 년</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_762D642C19AF466B9D3384AC74083890]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='데이터' datatype='table' name='[__tableau_internal_object_id__].[데이터_762D642C19AF466B9D3384AC74083890]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[단위]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='데이터' id='데이터_762D642C19AF466B9D3384AC74083890'>
+            <properties context=''>
+              <relation connection='excel-direct.1g2n5fw0ky9ziq138u0dx1v5fg4n' name='데이터' table='[데이터$]' type='table'>
+                <columns gridOrigin='A1:L3:no:A1:L3:0' header='yes' outcome='6'>
+                  <column datatype='string' name='구분별' ordinal='0' />
+                  <column datatype='string' name='항목' ordinal='1' />
+                  <column datatype='real' name='2012 년' ordinal='2' />
+                  <column datatype='real' name='2013 년' ordinal='3' />
+                  <column datatype='real' name='2014 년' ordinal='4' />
+                  <column datatype='real' name='2015 년' ordinal='5' />
+                  <column datatype='real' name='2016 년' ordinal='6' />
+                  <column datatype='real' name='2017 년' ordinal='7' />
+                  <column datatype='real' name='2018 년' ordinal='8' />
+                  <column datatype='real' name='2019 년' ordinal='9' />
+                  <column datatype='real' name='2020 년' ordinal='10' />
+                  <column datatype='real' name='2021 년' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='데이터(DD5_1)' inline='true' name='federated.1ohj8k90gjwfb5108g3no0qceqtc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD5_1' name='excel-direct.0bllayk0uxioy41g3x4sm18vnm30'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD5_1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0bllayk0uxioy41g3x4sm18vnm30' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:L6:no:A1:L6:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='항목' ordinal='1' />
+            <column datatype='real' name='2012 년' ordinal='2' />
+            <column datatype='real' name='2013 년' ordinal='3' />
+            <column datatype='real' name='2014 년' ordinal='4' />
+            <column datatype='real' name='2015 년' ordinal='5' />
+            <column datatype='real' name='2016 년' ordinal='6' />
+            <column datatype='real' name='2017 년' ordinal='7' />
+            <column datatype='real' name='2018 년' ordinal='8' />
+            <column datatype='real' name='2019 년' ordinal='9' />
+            <column datatype='real' name='2020 년' ordinal='10' />
+            <column datatype='real' name='2021 년' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0bllayk0uxioy41g3x4sm18vnm30' name='데이터' table='[데이터$]' type='table'>
+          <columns gridOrigin='A1:L6:no:A1:L6:0' header='yes' outcome='6'>
+            <column datatype='string' name='구분별' ordinal='0' />
+            <column datatype='string' name='항목' ordinal='1' />
+            <column datatype='real' name='2012 년' ordinal='2' />
+            <column datatype='real' name='2013 년' ordinal='3' />
+            <column datatype='real' name='2014 년' ordinal='4' />
+            <column datatype='real' name='2015 년' ordinal='5' />
+            <column datatype='real' name='2016 년' ordinal='6' />
+            <column datatype='real' name='2017 년' ordinal='7' />
+            <column datatype='real' name='2018 년' ordinal='8' />
+            <column datatype='real' name='2019 년' ordinal='9' />
+            <column datatype='real' name='2020 년' ordinal='10' />
+            <column datatype='real' name='2021 년' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L6:no:A1:L6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분별]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>구분별</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[항목]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>항목</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2012 년</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2013 년</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2014 년</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2015 년</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2016 년</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2017 년</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2018 년</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2019 년</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2020 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2020 년</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 년</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2021 년]</local-name>
+            <parent-name>[데이터]</parent-name>
+            <remote-alias>2021 년</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[데이터_61068FD958D444E2B18B4A8E65DB1E83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='데이터' datatype='table' name='[__tableau_internal_object_id__].[데이터_61068FD958D444E2B18B4A8E65DB1E83]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='데이터' id='데이터_61068FD958D444E2B18B4A8E65DB1E83'>
+            <properties context=''>
+              <relation connection='excel-direct.0bllayk0uxioy41g3x4sm18vnm30' name='데이터' table='[데이터$]' type='table'>
+                <columns gridOrigin='A1:L6:no:A1:L6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='구분별' ordinal='0' />
+                  <column datatype='string' name='항목' ordinal='1' />
+                  <column datatype='real' name='2012 년' ordinal='2' />
+                  <column datatype='real' name='2013 년' ordinal='3' />
+                  <column datatype='real' name='2014 년' ordinal='4' />
+                  <column datatype='real' name='2015 년' ordinal='5' />
+                  <column datatype='real' name='2016 년' ordinal='6' />
+                  <column datatype='real' name='2017 년' ordinal='7' />
+                  <column datatype='real' name='2018 년' ordinal='8' />
+                  <column datatype='real' name='2019 년' ordinal='9' />
+                  <column datatype='real' name='2020 년' ordinal='10' />
+                  <column datatype='real' name='2021 년' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1(DD4)' inline='true' name='federated.0wltkju1iu6srm1es1aom1u1tdgx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD4' name='excel-direct.0wf7cao12cem671ccjpcq0xgqz06'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD4.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='DD4(2)' name='excel-direct.0krtahj0olt1ia18ddbvx1rvwjgl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD4.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0wf7cao12cem671ccjpcq0xgqz06' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H9:no:A1:H9:0' header='yes' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+            <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+            <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+            <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+            <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+            <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+            <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0wf7cao12cem671ccjpcq0xgqz06' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H9:no:A1:H9:0' header='yes' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+            <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+            <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+            <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+            <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+            <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+            <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H9:no:A1:H9:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>일(학생은 공부) 때문에 시간이 없어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[일(학생은 공부) 때문에 시간이 없어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>일(학생은 공부) 때문에 시간이 없어서</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 이외의 매체/콘텐츠 이용</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 이외의 매체/콘텐츠 이용]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 이외의 매체/콘텐츠 이용</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 읽는 습관이 들지 않아서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 읽는 습관이 들지 않아서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 읽는 습관이 들지 않아서</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시력 저하 등으로 글자가 잘 보이지 않아서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[시력 저하 등으로 글자가 잘 보이지 않아서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시력 저하 등으로 글자가 잘 보이지 않아서</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>여가/취미 활동 (매체 /콘텐츠 이용 제외)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[여가/취미 활동 (매체 /콘텐츠 이용 제외)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>여가/취미 활동 (매체 /콘텐츠 이용 제외)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 읽는 것이 싫어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 읽는 것이 싫어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 읽는 것이 싫어서</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책을 읽을 만한 마음의 여유가 없어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책을 읽을 만한 마음의 여유가 없어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책을 읽을 만한 마음의 여유가 없어서</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' default-format='N' name='[Multiple Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_0E038B33319A402DA4DD91A02C2FECB9]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_0E038B33319A402DA4DD91A02C2FECB9'>
+            <properties context=''>
+              <relation connection='excel-direct.0wf7cao12cem671ccjpcq0xgqz06' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H9:no:A1:H9:0' header='yes' outcome='6'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+                  <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+                  <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+                  <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+                  <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+                  <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+                  <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1(DD3)' inline='true' name='federated.1k2oldb1t3m3eb10s2rxv1e6q5vc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD3' name='excel-direct.06680jn1p7t8j613f4f3a11ob7re'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD3.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.06680jn1p7t8j613f4f3a11ob7re' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+            <column datatype='string' name='자치구' ordinal='0' />
+            <column datatype='integer' name='공공도서관' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.06680jn1p7t8j613f4f3a11ob7re' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+            <column datatype='string' name='자치구' ordinal='0' />
+            <column datatype='integer' name='공공도서관' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B6:no:A1:B6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>자치구</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[자치구]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>자치구</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1DFFBDBCC64E48E1853AD90F7B7A6072]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>공공도서관</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[공공도서관]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>공공도서관</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1DFFBDBCC64E48E1853AD90F7B7A6072]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_1DFFBDBCC64E48E1853AD90F7B7A6072]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_1DFFBDBCC64E48E1853AD90F7B7A6072'>
+            <properties context=''>
+              <relation connection='excel-direct.06680jn1p7t8j613f4f3a11ob7re' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='자치구' ordinal='0' />
+                  <column datatype='integer' name='공공도서관' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1(DD4_1)' inline='true' name='federated.0ww4rqh0oc4qn213q2q6v0ffc309' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DD4_1' name='excel-direct.0dyhm801e5e6tz177rvo50b3dk3f'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/DD4_1.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0dyhm801e5e6tz177rvo50b3dk3f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H2:no:A1:H2:1' header='yes' lost='0' outcome='1' processed='7'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+            <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+            <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+            <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+            <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+            <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+            <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0dyhm801e5e6tz177rvo50b3dk3f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H2:no:A1:H2:1' header='yes' lost='0' outcome='1' processed='7'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+            <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+            <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+            <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+            <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+            <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+            <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H2:no:A1:H2:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>7</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>일(학생은 공부) 때문에 시간이 없어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[일(학생은 공부) 때문에 시간이 없어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>일(학생은 공부) 때문에 시간이 없어서</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 이외의 매체/콘텐츠 이용</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 이외의 매체/콘텐츠 이용]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 이외의 매체/콘텐츠 이용</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 읽는 습관이 들지 않아서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 읽는 습관이 들지 않아서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 읽는 습관이 들지 않아서</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시력 저하 등으로 글자가 잘 보이지 않아서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[시력 저하 등으로 글자가 잘 보이지 않아서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시력 저하 등으로 글자가 잘 보이지 않아서</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>여가/취미 활동 (매체 /콘텐츠 이용 제외)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[여가/취미 활동 (매체 /콘텐츠 이용 제외)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>여가/취미 활동 (매체 /콘텐츠 이용 제외)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책 읽는 것이 싫어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책 읽는 것이 싫어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책 읽는 것이 싫어서</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>책을 읽을 만한 마음의 여유가 없어서</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[책을 읽을 만한 마음의 여유가 없어서]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>책을 읽을 만한 마음의 여유가 없어서</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_2B950E8258CA4377AEC74EB15EA76123]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='#1' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_2B950E8258CA4377AEC74EB15EA76123]' role='measure' type='quantitative' />
+      <column datatype='real' name='[시력 저하 등으로 글자가 잘 보이지 않아서]' role='measure' type='quantitative' />
+      <column datatype='real' name='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[일(학생은 공부) 때문에 시간이 없어서]' role='measure' type='quantitative' />
+      <column datatype='real' name='[책 이외의 매체/콘텐츠 이용]' role='measure' type='quantitative' />
+      <column datatype='real' name='[책 읽는 것이 싫어서]' role='measure' type='quantitative' />
+      <column datatype='real' name='[책 읽는 습관이 들지 않아서]' role='measure' type='quantitative' />
+      <column datatype='real' name='[책을 읽을 만한 마음의 여유가 없어서]' role='measure' type='quantitative' />
+      <column-instance column='[시력 저하 등으로 글자가 잘 보이지 않아서]' derivation='Sum' name='[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' derivation='Sum' name='[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[일(학생은 공부) 때문에 시간이 없어서]' derivation='Sum' name='[sum:일(학생은 공부) 때문에 시간이 없어서:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[책 이외의 매체/콘텐츠 이용]' derivation='Sum' name='[sum:책 이외의 매체/콘텐츠 이용:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[책 읽는 것이 싫어서]' derivation='Sum' name='[sum:책 읽는 것이 싫어서:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[책 읽는 습관이 들지 않아서]' derivation='Sum' name='[sum:책 읽는 습관이 들지 않아서:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[책을 읽을 만한 마음의 여유가 없어서]' derivation='Sum' name='[sum:책을 읽을 만한 마음의 여유가 없어서:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:일(학생은 공부) 때문에 시간이 없어서:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 이외의 매체/콘텐츠 이용:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 읽는 것이 싫어서:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 읽는 습관이 들지 않아서:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책을 읽을 만한 마음의 여유가 없어서:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_2B950E8258CA4377AEC74EB15EA76123'>
+            <properties context=''>
+              <relation connection='excel-direct.0dyhm801e5e6tz177rvo50b3dk3f' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H2:no:A1:H2:1' header='yes' lost='0' outcome='1' processed='7'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='일(학생은 공부) 때문에 시간이 없어서' ordinal='1' />
+                  <column datatype='real' name='책 이외의 매체/콘텐츠 이용' ordinal='2' />
+                  <column datatype='real' name='책 읽는 습관이 들지 않아서' ordinal='3' />
+                  <column datatype='real' name='시력 저하 등으로 글자가 잘 보이지 않아서' ordinal='4' />
+                  <column datatype='real' name='여가/취미 활동 (매체 /콘텐츠 이용 제외)' ordinal='5' />
+                  <column datatype='real' name='책 읽는 것이 싫어서' ordinal='6' />
+                  <column datatype='real' name='책을 읽을 만한 마음의 여유가 없어서' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1(뉴스 크롤링)' inline='true' name='federated.1rrcz470vw38bn1h4q4t50wwp0y1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='뉴스 크롤링' name='excel-direct.06pp0ko0ldkkez12dfk2r0rwhtnn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/DB/뉴스 크롤링.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.06pp0ko0ldkkez12dfk2r0rwhtnn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B51:no:A1:B51:0' header='no' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.06pp0ko0ldkkez12dfk2r0rwhtnn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B51:no:A1:B51:0' header='no' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B51:no:A1:B51:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5C344AA688E3458581DD9B8200313BC9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5C344AA688E3458581DD9B8200313BC9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_5C344AA688E3458581DD9B8200313BC9]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_5C344AA688E3458581DD9B8200313BC9'>
+            <properties context=''>
+              <relation connection='excel-direct.06pp0ko0ldkkez12dfk2r0rwhtnn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B51:no:A1:B51:0' header='no' outcome='2'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1(D1)' inline='true' name='federated.1r7rr3y1bdz2w61eebn3u1u3pdx4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='D1' name='excel-direct.0iw9q4802iuhl8143nso616rk2iu'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Dashboard_data/D1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0iw9q4802iuhl8143nso616rk2iu' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='2'>
+            <column datatype='date' date-parse-format='yyyy' name='F1' ordinal='0' />
+            <column datatype='real' name='독서량' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0iw9q4802iuhl8143nso616rk2iu' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='2'>
+            <column datatype='date' date-parse-format='yyyy' name='F1' ordinal='0' />
+            <column datatype='real' name='독서량' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B8:no:A1:B8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_65F6AFC2D7B34FFBAC0860F6480C0DB7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>독서량</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[독서량]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>독서량</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_65F6AFC2D7B34FFBAC0860F6480C0DB7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='년도' datatype='date' name='[F1]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_65F6AFC2D7B34FFBAC0860F6480C0DB7]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_65F6AFC2D7B34FFBAC0860F6480C0DB7'>
+            <properties context=''>
+              <relation connection='excel-direct.0iw9q4802iuhl8143nso616rk2iu' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='2'>
+                  <column datatype='date' date-parse-format='yyyy' name='F1' ordinal='0' />
+                  <column datatype='real' name='독서량' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='&lt;나이별 스마트폰 사용량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;나이별 스마트폰 사용량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='데이터(DD5_1)' name='federated.1ohj8k90gjwfb5108g3no0qceqtc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ohj8k90gjwfb5108g3no0qceqtc'>
+            <column datatype='real' name='[2012 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2013 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2014 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2015 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2016 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2017 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2018 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2019 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2020 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2021 년]' role='measure' type='quantitative' />
+            <column-instance column='[구분별]' derivation='None' name='[none:구분별:nk]' pivot='key' type='nominal' />
+            <column-instance column='[항목]' derivation='None' name='[none:항목:nk]' pivot='key' type='nominal' />
+            <column-instance column='[2012 년]' derivation='Sum' name='[sum:2012 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2013 년]' derivation='Sum' name='[sum:2013 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2014 년]' derivation='Sum' name='[sum:2014 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2015 년]' derivation='Sum' name='[sum:2015 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2016 년]' derivation='Sum' name='[sum:2016 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2017 년]' derivation='Sum' name='[sum:2017 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2018 년]' derivation='Sum' name='[sum:2018 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2019 년]' derivation='Sum' name='[sum:2019 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2020 년]' derivation='Sum' name='[sum:2020 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2021 년]' derivation='Sum' name='[sum:2021 년:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분별]' role='dimension' type='nominal' />
+            <column datatype='string' name='[항목]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ohj8k90gjwfb5108g3no0qceqtc].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2012 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2013 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2014 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2015 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2016 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2017 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2018 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2019 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2020 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ohj8k90gjwfb5108g3no0qceqtc].[sum:2021 년:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ohj8k90gjwfb5108g3no0qceqtc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1ohj8k90gjwfb5108g3no0qceqtc].[Multiple Values]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <size column='[federated.1ohj8k90gjwfb5108g3no0qceqtc].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ohj8k90gjwfb5108g3no0qceqtc].[Multiple Values]</rows>
+        <cols>([federated.1ohj8k90gjwfb5108g3no0qceqtc].[none:항목:nk] / ([federated.1ohj8k90gjwfb5108g3no0qceqtc].[none:구분별:nk] / [federated.1ohj8k90gjwfb5108g3no0qceqtc].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{08A735B1-694A-40B1-B0AE-391B28DB942E}' />
+    </worksheet>
+    <worksheet name='&lt;서울 나이별 독서량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;서울 나이별 독서량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD2)' name='federated.1x25c5016qpbge14q8ig01gsptu6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x25c5016qpbge14q8ig01gsptu6'>
+            <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+            <column-instance column='[년 평균(권)]' derivation='Sum' name='[sum:년 평균(권):qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+            <column datatype='real' name='[년 평균(권)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1x25c5016qpbge14q8ig01gsptu6].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;20대&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;30대&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;40대&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;50대&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;60대 이상&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</column>
+            <column>[federated.1x25c5016qpbge14q8ig01gsptu6].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5492265224456787' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]</rows>
+        <cols>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</cols>
+      </table>
+      <simple-id uuid='{20D775FD-F5EE-4E35-9162-3544CF0B58F2}' />
+    </worksheet>
+    <worksheet name='&lt;서울 성별 독서량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;서울 성별 독서량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD2)' name='federated.1x25c5016qpbge14q8ig01gsptu6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x25c5016qpbge14q8ig01gsptu6'>
+            <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+            <column-instance column='[년 평균(권)]' derivation='Sum' name='[sum:년 평균(권):qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+            <column datatype='real' name='[년 평균(권)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;남&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;여&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;전체&quot;</bucket>
+              <bucket>&quot;남&quot;</bucket>
+              <bucket>&quot;여&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]</rows>
+        <cols>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</cols>
+      </table>
+      <simple-id uuid='{54E876D3-AE78-4BCD-9680-FD6A1ECA91B0}' />
+    </worksheet>
+    <worksheet name='&lt;서울 지역별 공공도서관 수&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;서울 지역별 공공도서관 수&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD3)' name='federated.1k2oldb1t3m3eb10s2rxv1e6q5vc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k2oldb1t3m3eb10s2rxv1e6q5vc'>
+            <column-instance column='[자치구]' derivation='None' name='[none:자치구:nk]' pivot='key' type='nominal' />
+            <column-instance column='[공공도서관]' derivation='Sum' name='[sum:공공도서관:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[공공도서관]' role='measure' type='quantitative' />
+            <column datatype='string' name='[자치구]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[sum:공공도서관:qk]' scope='rows' value='공공도서관 개수' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[sum:공공도서관:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[sum:공공도서관:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[sum:공공도서관:qk]</rows>
+        <cols>[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[none:자치구:nk]</cols>
+      </table>
+      <simple-id uuid='{966ECA37-A9C5-402B-84E1-610AB7B88B60}' />
+    </worksheet>
+    <worksheet name='&lt;서울 지역별 독서량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;서울 지역별 독서량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD2)' name='federated.1x25c5016qpbge14q8ig01gsptu6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x25c5016qpbge14q8ig01gsptu6'>
+            <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+            <column-instance column='[년 평균(권)]' derivation='Sum' name='[sum:년 평균(권):qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+            <column datatype='real' name='[년 평균(권)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;도심권&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;동남권&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;동북권&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;서남권&quot;' />
+              <groupfilter function='member' level='[none:구분:nk]' member='&quot;서북권&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' />
+              <text column='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]</rows>
+        <cols>[federated.1x25c5016qpbge14q8ig01gsptu6].[none:구분:nk]</cols>
+      </table>
+      <simple-id uuid='{CC8F23BD-C332-4FE0-84C2-65D2F65D7AFF}' />
+    </worksheet>
+    <worksheet name='&lt;성별 스마트폰 사용량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;성별 스마트폰 사용량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='데이터(DD5)' name='federated.1lot7db01zc35o1fh12ly12ss4dn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lot7db01zc35o1fh12ly12ss4dn'>
+            <column datatype='real' name='[2012 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2013 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2014 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2015 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2016 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2017 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2018 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2019 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2020 년]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2021 년]' role='measure' type='quantitative' />
+            <column-instance column='[구분별]' derivation='None' name='[none:구분별:nk]' pivot='key' type='nominal' />
+            <column-instance column='[항목]' derivation='None' name='[none:항목:nk]' pivot='key' type='nominal' />
+            <column-instance column='[2012 년]' derivation='Sum' name='[sum:2012 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2013 년]' derivation='Sum' name='[sum:2013 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2014 년]' derivation='Sum' name='[sum:2014 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2015 년]' derivation='Sum' name='[sum:2015 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2016 년]' derivation='Sum' name='[sum:2016 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2017 년]' derivation='Sum' name='[sum:2017 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2018 년]' derivation='Sum' name='[sum:2018 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2019 년]' derivation='Sum' name='[sum:2019 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2020 년]' derivation='Sum' name='[sum:2020 년:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2021 년]' derivation='Sum' name='[sum:2021 년:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분별]' role='dimension' type='nominal' />
+            <column datatype='string' name='[항목]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lot7db01zc35o1fh12ly12ss4dn].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2012 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2013 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2014 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2015 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2016 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2017 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2018 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2019 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2020 년:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1lot7db01zc35o1fh12ly12ss4dn].[sum:2021 년:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1lot7db01zc35o1fh12ly12ss4dn].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1lot7db01zc35o1fh12ly12ss4dn].[Multiple Values]' field-type='quantitative' minor-origin='0.0' minor-spacing='10.0' range-type='uniform' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <size column='[federated.1lot7db01zc35o1fh12ly12ss4dn].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1lot7db01zc35o1fh12ly12ss4dn].[Multiple Values]</rows>
+        <cols>([federated.1lot7db01zc35o1fh12ly12ss4dn].[none:항목:nk] / ([federated.1lot7db01zc35o1fh12ly12ss4dn].[none:구분별:nk] / [federated.1lot7db01zc35o1fh12ly12ss4dn].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{CCCE3139-BBFD-4927-A924-DAA968AA53DB}' />
+    </worksheet>
+    <worksheet name='&lt;장애요인 현황&gt;1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>독서 장애요인 현황</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD4_1)' name='federated.0ww4rqh0oc4qn213q2q6v0ffc309' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ww4rqh0oc4qn213q2q6v0ffc309'>
+            <column-instance column='[시력 저하 등으로 글자가 잘 보이지 않아서]' derivation='Sum' name='[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' derivation='Sum' name='[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[일(학생은 공부) 때문에 시간이 없어서]' derivation='Sum' name='[sum:일(학생은 공부) 때문에 시간이 없어서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 이외의 매체/콘텐츠 이용]' derivation='Sum' name='[sum:책 이외의 매체/콘텐츠 이용:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 읽는 것이 싫어서]' derivation='Sum' name='[sum:책 읽는 것이 싫어서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 읽는 습관이 들지 않아서]' derivation='Sum' name='[sum:책 읽는 습관이 들지 않아서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책을 읽을 만한 마음의 여유가 없어서]' derivation='Sum' name='[sum:책을 읽을 만한 마음의 여유가 없어서:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[시력 저하 등으로 글자가 잘 보이지 않아서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[일(학생은 공부) 때문에 시간이 없어서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 이외의 매체/콘텐츠 이용]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 읽는 것이 싫어서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 읽는 습관이 들지 않아서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책을 읽을 만한 마음의 여유가 없어서]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:일(학생은 공부) 때문에 시간이 없어서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 이외의 매체/콘텐츠 이용:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 읽는 것이 싫어서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책 읽는 습관이 들지 않아서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[sum:책을 읽을 만한 마음의 여유가 없어서:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.65867406129837036' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[Multiple Values]</rows>
+        <cols>[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{8D78C701-E4E2-437C-B30E-9FAC1B3D7D8B}' />
+    </worksheet>
+    <worksheet name='&lt;전국 격년 독서량&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;전국 격년 독서량&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(D1)' name='federated.1r7rr3y1bdz2w61eebn3u1u3pdx4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1r7rr3y1bdz2w61eebn3u1u3pdx4'>
+            <column caption='년도' datatype='date' name='[F1]' role='dimension' type='quantitative' />
+            <column-instance column='[독서량]' derivation='Sum' name='[sum:독서량:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Year-Trunc' name='[tyr:F1:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[독서량]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1r7rr3y1bdz2w61eebn3u1u3pdx4].[tyr:F1:qk]' field-type='quantitative' major-origin='#2015-01-01 12:00:00#' major-spacing='2.0' major-units='years' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1r7rr3y1bdz2w61eebn3u1u3pdx4].[tyr:F1:qk]' scope='cols' value='년도' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1r7rr3y1bdz2w61eebn3u1u3pdx4].[sum:독서량:qk]</rows>
+        <cols>[federated.1r7rr3y1bdz2w61eebn3u1u3pdx4].[tyr:F1:qk]</cols>
+      </table>
+      <simple-id uuid='{3A7137BF-62FB-444A-B40C-E7E6CD03F760}' />
+    </worksheet>
+    <worksheet name='zx'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;장애요인 현황&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(DD4)' name='federated.0wltkju1iu6srm1es1aom1u1tdgx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wltkju1iu6srm1es1aom1u1tdgx'>
+            <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+            <column-instance column='[시력 저하 등으로 글자가 잘 보이지 않아서]' derivation='Sum' name='[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' derivation='Sum' name='[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[일(학생은 공부) 때문에 시간이 없어서]' derivation='Sum' name='[sum:일(학생은 공부) 때문에 시간이 없어서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 이외의 매체/콘텐츠 이용]' derivation='Sum' name='[sum:책 이외의 매체/콘텐츠 이용:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 읽는 것이 싫어서]' derivation='Sum' name='[sum:책 읽는 것이 싫어서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책 읽는 습관이 들지 않아서]' derivation='Sum' name='[sum:책 읽는 습관이 들지 않아서:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[책을 읽을 만한 마음의 여유가 없어서]' derivation='Sum' name='[sum:책을 읽을 만한 마음의 여유가 없어서:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+            <column datatype='real' name='[시력 저하 등으로 글자가 잘 보이지 않아서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[여가/취미 활동 (매체 /콘텐츠 이용 제외)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[일(학생은 공부) 때문에 시간이 없어서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 이외의 매체/콘텐츠 이용]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 읽는 것이 싫어서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책 읽는 습관이 들지 않아서]' role='measure' type='quantitative' />
+            <column datatype='real' name='[책을 읽을 만한 마음의 여유가 없어서]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wltkju1iu6srm1es1aom1u1tdgx].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:시력 저하 등으로 글자가 잘 보이지 않아서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:여가/취미 활동 (매체 /콘텐츠 이용 제외):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:일(학생은 공부) 때문에 시간이 없어서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:책 이외의 매체/콘텐츠 이용:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:책 읽는 것이 싫어서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:책 읽는 습관이 들지 않아서:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wltkju1iu6srm1es1aom1u1tdgx].[sum:책을 읽을 만한 마음의 여유가 없어서:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wltkju1iu6srm1es1aom1u1tdgx].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wltkju1iu6srm1es1aom1u1tdgx].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0wltkju1iu6srm1es1aom1u1tdgx].[Multiple Values]</rows>
+        <cols>([federated.0wltkju1iu6srm1es1aom1u1tdgx].[none:구분:nk] / [federated.0wltkju1iu6srm1es1aom1u1tdgx].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{167B0A60-D1BB-483C-9B59-0EF4540410DD}' />
+    </worksheet>
+    <worksheet name='시트 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;독서량 감소 관련 뉴스 제목&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(뉴스 크롤링)' name='federated.1rrcz470vw38bn1h4q4t50wwp0y1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rrcz470vw38bn1h4q4t50wwp0y1'>
+            <column datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rrcz470vw38bn1h4q4t50wwp0y1].[none:F2:nk]' />
+              <size column='[federated.1rrcz470vw38bn1h4q4t50wwp0y1].[none:F2:nk]' />
+              <text column='[federated.1rrcz470vw38bn1h4q4t50wwp0y1].[none:F2:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9B60882E-F668-4194-9DE7-FA6CFA5A6F78}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='대시보드 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' name='시트 9' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='8' param='horz' type-v2='layout-flow' w='49200' x='50000' y='1000'>
+                <zone h='98000' id='9' name='&lt;전국 격년 독서량&gt;' w='49200' x='50000' y='1000'>
+                  <layout-cache minwidth='159' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='12' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='시트 9' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='&lt;전국 격년 독서량&gt;' w='49200' x='50000' y='1000'>
+                  <layout-cache minwidth='159' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D6AC553D-80ED-425D-AB38-1728F45B7345}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='대시보드 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='3' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='1' name='&lt;장애요인 현황&gt;1' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='1' is-fixed='true' name='&lt;장애요인 현황&gt;1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{30673A97-59EF-4044-A4F0-3E5E95D9D468}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='서울시 대시보드'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='&lt;서울 지역별 공공도서관 수&gt;' w='49200' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='&lt;서울 나이별 독서량&gt;' w='49200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24500' id='11' name='&lt;서울 성별 독서량&gt;' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24500' id='12' name='&lt;서울 지역별 독서량&gt;' w='49200' x='800' y='25500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='17' name='&lt;전국 격년 독서량&gt;' w='49200' x='50000' y='1000'>
+                <layout-cache minheight='248' minwidth='159' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='24' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='188' h='24500' id='11' is-fixed='true' name='&lt;서울 성별 독서량&gt;' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='17' is-fixed='true' name='&lt;전국 격년 독서량&gt;' w='49200' x='50000' y='1000'>
+                  <layout-cache minheight='248' minwidth='159' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24500' id='12' is-fixed='true' name='&lt;서울 지역별 독서량&gt;' w='49200' x='800' y='25500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='&lt;서울 나이별 독서량&gt;' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='&lt;서울 지역별 공공도서관 수&gt;' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4DE41D33-D686-4197-BF43-80B8A2DE16DF}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='245'>
+    <window class='worksheet' name='&lt;서울 지역별 공공도서관 수&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k2oldb1t3m3eb10s2rxv1e6q5vc].[sum:공공도서관:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A126A585-042D-44BB-93A9-FB94CB3220FE}' />
+    </window>
+    <window class='worksheet' name='&lt;서울 나이별 독서량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD7A117E-11BE-47AB-85DA-5095532EC96B}' />
+    </window>
+    <window class='worksheet' name='&lt;서울 성별 독서량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AC5F0AE8-15BD-46C1-9ACE-4E32BD298FD1}' />
+    </window>
+    <window class='worksheet' name='&lt;서울 지역별 독서량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1x25c5016qpbge14q8ig01gsptu6].[sum:년 평균(권):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CF55E2D-1BFA-4FAD-B506-0CCAAA9525D1}' />
+    </window>
+    <window class='worksheet' name='&lt;전국 격년 독서량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4CBBEEFB-B43B-4D1E-8CFF-17303494E6EB}' />
+    </window>
+    <window class='worksheet' name='zx'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EA1A7BB6-15CE-4149-81DA-5B422BE767AC}' />
+    </window>
+    <window class='worksheet' name='&lt;장애요인 현황&gt;1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ww4rqh0oc4qn213q2q6v0ffc309].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{CA3F47CD-9058-484E-AE63-E17D5E68D2CE}' />
+    </window>
+    <window class='worksheet' name='&lt;성별 스마트폰 사용량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1lot7db01zc35o1fh12ly12ss4dn].[:Measure Names]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2AA6A62E-94A5-4B49-8C00-7068557D4E9D}' />
+    </window>
+    <window class='worksheet' name='&lt;나이별 스마트폰 사용량&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ohj8k90gjwfb5108g3no0qceqtc].[:Measure Names]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{29DC9AC9-3FD8-4341-AF9B-6AD813119658}' />
+    </window>
+    <window class='worksheet' name='시트 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1rrcz470vw38bn1h4q4t50wwp0y1].[none:F2:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1rrcz470vw38bn1h4q4t50wwp0y1].[none:F2:nk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5613F69-FA84-484C-A094-521D3BB1089C}' />
+    </window>
+    <window class='dashboard' name='대시보드 2'>
+      <viewpoints>
+        <viewpoint name='&lt;전국 격년 독서량&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='시트 9' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{38DBD8B5-F205-4CBB-B73C-B169EE280A4C}' />
+    </window>
+    <window class='dashboard' maximized='true' name='대시보드 3'>
+      <viewpoints>
+        <viewpoint name='&lt;장애요인 현황&gt;1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='1' />
+      <simple-id uuid='{F7ADB1B5-97E8-4E68-A9CE-A5F30712E8FC}' />
+    </window>
+    <window class='dashboard' name='서울시 대시보드'>
+      <viewpoints>
+        <viewpoint name='&lt;서울 나이별 독서량&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='&lt;서울 성별 독서량&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='&lt;서울 지역별 공공도서관 수&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='&lt;서울 지역별 독서량&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='&lt;전국 격년 독서량&gt;'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B8C8FACE-88C5-4401-8F97-7657D4FB6CFA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='대시보드 3' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: woff2;
+    src: url('https://www.kakaocorp.com/page/_nuxt/fonts/KakaoSmall_Bold_OTF.b852aad.woff2');
+}
+
+*{
+    font-family: woff2;
+}
+
+main{
+    height: 700px;
+    width: 1200px;
+    border: 1px solid red;
+    padding: 5% 10%;
+}
+
+input{
+    font-size: 15pt;
+}
+
+.bigimg{
+    height: 500px;
+    width: 330px;
+    object-fit: cover;
+}
+
+.left{
+    height: 500px;
+    width: 330px;
+    float: left;
+    border: 1px solid red;
+}
+.right{
+    height: 500px;
+    width: 700px;
+    float: left;
+    padding: 0 5%;
+    border: 1px solid darkgreen;
+}

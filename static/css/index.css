@@ -1,0 +1,88 @@
+@font-face {
+    font-family: woff2;
+    /*src: url('https://static.toss.im/tps/20211111/semibold/100.woff2');*/
+    src: url('https://www.kakaocorp.com/page/_nuxt/fonts/KakaoSmall_Bold_OTF.b852aad.woff2');
+}
+
+*{
+    font-family: woff2;
+}
+
+header{
+    padding: 5% 10%;
+    font-size: 15pt;
+    text-align: right;
+    border: 1px solid red;
+    text-decoration-line: none;
+}
+
+nav{
+    border: 1px solid yellow;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li{
+    text-align: center;
+}
+
+main{
+    padding: 5% 10%;
+    height: 700px;
+    width: 900px;
+    border: 1px solid yellowgreen;
+    float: right;
+}
+
+.firstline{
+    padding: 2% 0;
+    height: 300px;
+    width: 1000px;
+    border: 1px solid green;
+    /*position: absolute;*/
+    /*clear: both;*/
+}
+
+.secondline{
+    padding: 2% 0;
+    height: 300px;
+    width: 1000px;
+    border: 1px solid pink;
+    /* clear: both; */
+    /*position:absolute;*/
+    /*bottom: 20px;*/
+}
+
+.image{
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+}
+
+.box2{
+    height: 250px;
+    width: 15%;
+    float: left;
+    margin: 0 2%;
+    border: 1px solid pink;
+}
+
+.box3{
+    height: 50px;
+    width: 15%;
+    float: left;
+    margin: 0 2%;
+    border: 1px solid red;
+}

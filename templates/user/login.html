@@ -1,0 +1,67 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Login</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+    <!-- Bootstrap core CSS -->
+    {% comment %} <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> {% endcomment %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    {% comment %} /*@media (min-width: 768px) {*/
+    /*  .bd-placeholder-img-lg {*/
+    /*    font-size: 3.5rem;*/
+    /*  }*/
+    /*}*/ {% endcomment %}
+
+    <style>
+      .btn-Signup {
+        color: #fff;
+        background-color: #f8d146da;
+        border-color: #f8d146da;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/auth.css' %}" rel="stylesheet" type="text/css">
+  </head>
+  <body class="text-center">
+
+    <main class="form-signin">
+      <form name="authlogin" class="auth-form" method="post">
+        {% csrf_token %}
+
+        <h1 class="h3 mb-3 fw-normal">로그인</h1>
+        <div class="form-floating">
+          <label for="floatingInput">ID</label>
+          <input type="text" class="form-control" id="floatingInput" name="username" placeholder="ID">
+        </div>
+
+        <div class="form-floating">
+          <label for="floatingPassword">PW</label>
+          <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary" value="로그인" type="submit">Login</button>
+        <br>
+        <br>
+        <br>
+        <button class="w-100 btn btn-lg btn-Signup" value="회원가입" onclick="location.href='/auth/register/'">Sign UP</button>
+      </form>
+    </main>
+
+
+
+  {% if message %}
+    <script>alert('{{ message }}');</script>
+  {% endif %}
+
+  </body>
+</html>
+

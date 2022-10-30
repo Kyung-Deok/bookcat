@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+{% load index %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" type="text/css" href="/static/css/index.css">-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            $('.firstline').on('click','img', function(e){
+                
+                $.ajax({
+                    url : 'book/'+$(this).attr('id'),
+                    type : 'GET',
+                    datatype : 'json',
+                    data: { 'kimg': $(this).attr('src'),
+                            'kname' :$(this).attr('name') ,
+                    },
+                    success : function(data){
+                        console.log(data)
+                        $("#mains").html(data)
+                    },
+                    error : function(err){
+                        console.log(err)
+                    },
+
+                })
+            })
+        })
+        // click 했을때 링크 통하도록
+    </script>
+</head>
+<body>
+    <header>
+        {% if 's_id' in request.session %}
+
+            {{ s_name }} 님 어서오세요.
+            <br><br>
+            <a href="/auth/logout">[로그아웃]</a>
+        {% else %}
+            <a href="/auth/register">[회원가입]</a><br>
+            <a href="/auth/login">[로그인]</a>
+        {% endif %}
+     
+        {% if message %}
+            <script>alert('{{ message }}');</script>
+        {% endif %}
+    </header>
+    <nav>
+        <ul>
+            <li><a href='/map/'>서울시 도서관 맵</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="firstline">
+            {% for i in range %}
+                <div class= "box2">
+                    <a>
+                        <img class="image" id="{{ outid|indexi:i }}" name="{{ output|indexi:i }}" src=" {{out_img|indexi:i }} ">
+                    </a>
+                </div>
+            {% endfor %}
+            {% for i in range %}    
+                <div class= "box3">
+                    <span name="{{ output|indexi:i }}"> {{output|indexi:i}} </span>
+                </div>
+            {% endfor %}
+        </div>
+
+    
+    <div id="mains"></div>
+</body>
+</html>

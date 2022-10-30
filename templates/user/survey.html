@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="{% url 'create' %}" method="post">{% csrf_token %}
+        이름 : <input type="text" name="name"><br>
+        나이 : <input type="text" name="age"><br>
+<!--        사는 지역-->
+<!--        <select name="region">-->
+<!--            <option value="도심권">도심권</option>-->
+<!--            <option value="동북권">동북권</option>-->
+<!--            <option value="동남권">동남권</option>-->
+<!--            <option value="서북권">서북권</option>-->
+<!--            <option value="서남권">서남권</option>-->
+<!--            <option value="기타">기타 지역</option>-->
+<!--        </select>-->
+        <br><br>
+        지난 1년간의 독서량은? (2022년 기준)
+        <input type="radio" name="readingvolume" value="0권">0권
+        <input type="radio" name="readingvolume" value="1권~10권">1권 ~ 10권
+        <input type="radio" name="readingvolume" value="11권~20권">11권 ~ 20권
+        <input type="radio" name="readingvolume" value="21권~30권">21권 ~ 30권
+        <input type="radio" name="readingvolume" value="30권초과">30권 초과
+        <br><br>
+        올해의 책은 무엇인가요? <input type="text" name="bookofyear"><br><br>
+        1년간 도서관, 서점(인터넷 서점)의 방문 횟수는? <br>
+        <input type="radio" name="visit" value="0회">0회
+        <input type="radio" name="visit" value="1회~5회">1회 ~ 5회
+        <input type="radio" name="visit" value="6회~10회">6회 ~ 10회
+        <input type="radio" name="visit" value="11회~15회">11회 ~ 15회
+        <input type="radio" name="visit" value="16회이상">16회 이상
+        <br><br>
+        좋아하는 책 장르는? <br>
+        <input type="radio" name="genre" value="소설">소설
+        <input type="radio" name="genre" value="경영,경제">경영, 경제
+        <input type="radio" name="genre" value="에세이">에세이
+        <input type="radio" name="genre" value="자연과학">자연과학
+        <input type="radio" name="genre" value="예술">예술
+        <br><br>
+        책 구입에 사용하는 비용은? <br>
+        <input type="radio" name="cost" value="0원">0원
+        <input type="radio" name="cost" value="100,000원 이하">100,000원 이하
+        <input type="radio" name="cost" value="500,000원 이하">500,000원 이하
+        <input type="radio" name="cost" value="1,000,000원 미만">1,000,000원 미만
+        <input type="radio" name="cost" value="1,000,000원 이상">1,000,000원 이상
+        <br>
+        <input type="submit" value="완료">
+    </form>
+</body>
+</html>

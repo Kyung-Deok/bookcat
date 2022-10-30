@@ -1,0 +1,13 @@
+@font-face {
+    font-family: woff2;
+    src: url("");
+}
+
+*{
+    font-family: woff2;
+}
+
+#map{
+    width: 500px;
+    height: 400px;
+}
